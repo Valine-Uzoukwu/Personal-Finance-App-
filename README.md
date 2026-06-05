@@ -6,6 +6,7 @@ A personal finance dashboard that helps you track income, assets, and expenses i
 
 ## Table of Contents
 
+- [MVP](#mvp)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
@@ -18,22 +19,38 @@ A personal finance dashboard that helps you track income, assets, and expenses i
 
 ---
 
+## MVP
+
+The minimum viable product for this app should focus on tracking and summarizing manually uploaded financial info
+
+### Core goals
+- Allow manual expense uploads/imports
+- Display a simple dashboard with current balances and spending totals based on a monthly period 
+- Store and show account information for checking, savings, and investment accounts
+- Record transactions and categorize expenses
+
+- Provide basic API endpoints to fetch accounts, transactions, expenses, and dashboard summaries
+
+
+---
+
 ## Features
 
 ### Frontend (UI)
 
 - **Dashboard**
-  - High-level overview of your money
+  - High-level overview of money
   - Summary cards (cash, investments, total spending, etc.)
 
-- **Income & Assets**
+- **Income**
   - Checking accounts
+
+ **Assets**
   - Savings accounts
   - Investments
 
 - **Expenses**
   - Credit card purchases
-  - Uploaded expenses (manual import)
   - Spending categories (grouping + breakdowns)
 
 ### Backend (API)
@@ -56,6 +73,13 @@ A personal finance dashboard that helps you track income, assets, and expenses i
   - Implement strong authentication and authorization
   - Never upload passwords, tokens, or private keys to GitHub
   - Use environment variables and secrets management for all sensitive config
+
+  - **Additional Customization**
+  - More categories for expenses and income 
+  - Savings Goals
+  - Animations and User Effects 
+
+
 
 ---
 
