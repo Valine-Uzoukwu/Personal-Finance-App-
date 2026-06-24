@@ -1,0 +1,16 @@
+li {
+  color: white;
+  padding: 1rem;
+  
+}
+
+.sidebar {
+  width: 15rem;
+  height: 100vh;
+  background-color: #0b2113;
+  padding: 20px;
+}
+.nav-pills .nav-link.active {
+  background-color: #516a4f;
+  color: #fff;
+}
